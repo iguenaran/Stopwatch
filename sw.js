@@ -42,7 +42,7 @@ stopBtn.addEventListener("click", () => {
   clearInterval(poused);
 
   startBtn.style.border="none"
-  stopBtn.style.border="1px solid #0087c5"
+  stopBtn.style.border="1px solid red"
   resetBtn.style.border="none"
 });
 
@@ -56,7 +56,7 @@ resetBtn.addEventListener('click' , () =>{
     }
     startBtn.style.border="none"
     stopBtn.style.border="none"
-    resetBtn.style.border="1px solid orange"
+    resetBtn.style.border="1px solid gray"
 })
 
 window.addEventListener("click" , function(event){
